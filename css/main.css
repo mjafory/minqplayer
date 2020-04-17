@@ -150,7 +150,7 @@ body {
   font-size: 30px;
   padding: 5px;
   margin-bottom: 10px;
-  color: #acb8cc;
+  color: #009688;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -210,7 +210,7 @@ body {
   margin-bottom: 0;
   font-size: 95px;
   filter: drop-shadow(0 11px 6px rgba(172, 184, 204, 0.45));
-  color: #fff;
+  color: #009688;
   width: auto;
   height: auto;
   display: inline-flex;
@@ -289,10 +289,11 @@ body {
   }
 }
 .album-info__name {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   margin-bottom: 12px;
   line-height: 1.3em;
+    color: #ff5722;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
   .album-info__name {
@@ -302,10 +303,11 @@ body {
 }
 .album-info__track {
   font-weight: 400;
-  font-size: 20px;
-  opacity: 0.7;
+  font-size: 17px;
+  opacity: 0.8;
   line-height: 1.3em;
   min-height: 52px;
+    color: #ff5722;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
   .album-info__track {
