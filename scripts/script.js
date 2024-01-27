@@ -1069,9 +1069,6 @@ new Vue({
 			].favorited;
 		}
 	},
-	// ...
-
-	// ...
 
 	created() {
 		let vm = this;
@@ -1117,6 +1114,5 @@ new Vue({
 		}
 	}
 
-	// ...
 
 });
